@@ -1,0 +1,3 @@
+<h3>Home</h3>
+<h5 *ngIf="auth.authenticated()"> You Are logged in</h5>
+<h5 *ngIf="!auth.authenticated()"> You Are not logged in, please log in</h5>
